@@ -71,3 +71,51 @@ li {
 .main-header {
   background-color: #f7f7f7;
 }
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+/* .first-li {
+  font-weight: bold;
+} */
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+/* li:nth-child(2) {
+  color: red;
+} */
+
+/* article p:last-child {
+  color: red;
+} */
+
+/* Styling lihks */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  /* color: #777; */
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  text-decoration: underline dotted orangered;
+  font-weight: bold;
+}
+
+a:active {
+  font-style: italic;
+  background-color: black;
+}
